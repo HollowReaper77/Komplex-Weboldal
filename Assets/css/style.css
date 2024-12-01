@@ -1,17 +1,74 @@
 *{
     font-family: sans-serif;
+    
 }
 nav{
-    align-items: center;
-}
-#heroTitle{
-    background-image: url("Assets/pictures/dodge-challenger-hellcat-redeye01-1-jpg.jpg");
-    background-size: cover;
-    max-width: 50vw;
+    position: sticky;
+    top: 0;
 }
 
-#heroTitleBackground{
-    max-width: 100vw;
-    max-height: 50vw;
+#hero{
+	display: flex;
+	justify-content: space-around; /*center, space-between, space-around*/
+	align-items: center; /*flex-end*/
+    text-align: center;
+    margin-top: 20px;
+
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    border-width: 8px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#welcomeText{
+    min-height: 350px;
+    max-width: 30%;
+    border-style: solid;
+    border-radius: 30px;
+
     
+}
+#welcomeImg{
+    max-width: 50vw;
+    border-width: 5px;
+	border-style: solid;
+	border-color: black;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px #babecc,
+                -10px -10px 20px #ffffff;
+}
+
+h1, h3{
+    border-style: solid;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-color: black;
+}
+
+h3{
+    color: white;
+    background-color: red;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.heroText{
+    background: white;
+}
+
+footer{
+    background-color: blue;
+}
+
+section{
+    margin-bottom: 10px;
+}
+
+p{
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
