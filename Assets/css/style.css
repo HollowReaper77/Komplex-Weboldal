@@ -7,7 +7,7 @@ nav{
     top: 0;
 }
 
-#hero{
+.myCard{
 	display: flex;
 	justify-content: space-around; /*center, space-between, space-around*/
 	align-items: center; /*flex-end*/
@@ -22,7 +22,7 @@ nav{
     margin-left: 3%;
     margin-right: 3%;
 }
-#welcomeText{
+#myCardText{
     min-height: 350px;
     max-width: 30%;
     border-style: solid;
@@ -53,22 +53,26 @@ h3{
     background-color: red;
     margin-top: 10%;
     margin-bottom: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .heroText{
     background: white;
 }
 
-footer{
-    background-color: blue;
-}
 
 section{
     margin-bottom: 10px;
 }
-
+/*
 p{
     position: relative;
     top: 50%;
     left: 50%;
 }
+
+.v8card{
+    flex-direction: row-reverse;
+}
+*/
