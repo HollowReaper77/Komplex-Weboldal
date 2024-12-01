@@ -1,0 +1,17 @@
+*{
+    font-family: sans-serif;
+}
+nav{
+    align-items: center;
+}
+#heroTitle{
+    background-image: url("Assets/pictures/dodge-challenger-hellcat-redeye01-1-jpg.jpg");
+    background-size: cover;
+    max-width: 50vw;
+}
+
+#heroTitleBackground{
+    max-width: 100vw;
+    max-height: 50vw;
+    
+}
