@@ -222,7 +222,7 @@ iframe{
     width: 50vw;
     z-index: 1;
     background-color: white;
-
+    min-height: 450px;
   }
 
   /* Bal konténer alapértelmezetten középen */
@@ -252,8 +252,8 @@ iframe{
   }
 
   .image {
-    max-width: 70%;
-    height: 70%;
+    max-width: 40%;
+    height: 40%;
     background-color: #ccc;
     transition: transform 1s ease-in-out;
     margin: 30px;
@@ -262,8 +262,13 @@ iframe{
   .text {
     font-size: 1.2rem;
     color: #333;
-    margin: 0 20px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     max-width: 200px;
+    border-style:solid;
+    border-radius: 30px;
+    min-width: 40%;
   }
 
 
