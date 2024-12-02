@@ -92,7 +92,8 @@ iframe{
     padding-left: 30px;
 }
 #moreContent{
-    display: grid;
+/*    display: grid;*/
+
 }
 
 
@@ -123,6 +124,14 @@ iframe{
     padding-bottom: 20px;
 }*/
 
+#videosGrid{
+    /*display: flex;
+    justify-content: d; /*center, space-between, space-around
+*/
+
+    display: grid;
+}
+
 p{
     position: relative;
     top: 50%;
@@ -132,4 +141,4 @@ p{
 .v8card{
     flex-direction: row-reverse;
 }
-*/
+/**/
