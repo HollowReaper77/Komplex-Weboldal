@@ -122,14 +122,27 @@ iframe{
     font-size: 15px;
     max-height: 50px;
     padding-bottom: 20px;
-}*/
+}
 
 #videosGrid{
-    /*display: flex;
-    justify-content: d; /*center, space-between, space-around
-*/
 
-    display: grid;
+
+	display: grid;
+	justifyd-content:df; /*center, space-between, space-around*/
+	align-items: center; /*flex-end*/
+    text-align: center;
+    margin-top: 20px;
+
+
+
+
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    border-width: 8px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 /*
 p{
