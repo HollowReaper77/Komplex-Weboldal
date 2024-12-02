@@ -11,35 +11,16 @@
     <title>A Legendás Izomautók</title>
 </head>
 <body>
-    <header>
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Mopar or No Car</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" href="#">A Legendás V8</a>
-                  <a class="nav-link" href="#">Challenger és Charger</a>
-                  <a class="nav-link" href="#">Modellek</a>
-                  <a class="nav-link" href="#">Speciális modellek</a>
-                  <a class="nav-link" href="#">További tartalmak</a>
-                  <a class="nav-link" href="#">R.I.P.</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-
-    </header>
+  <span id="MONC"></span>
     <header class="d-flex justify-content-center py-3">
       <ul class="nav nav-pills">
-        <li class="nav-item px-3 py-3"><a href="#" class="nav-link active" aria-current="page">Mopar or No Car</a></li>
-        <li class="nav-item px-3 py-3"><a href="#" class="nav-link active" aria-current="page">A Legendás V8</a></li>
-        <li class="nav-item px-3 py-3"><a href="#" class="nav-link active" aria-current="page">Modellek</a></li>
-        <li class="nav-item px-3 py-3"><a href="#" class="nav-link active" aria-current="page">Speciális modellek</a></li>
-        <li class="nav-item px-3 py-3"><a href="#" class="nav-link active" aria-current="page">További tartalmak</a></li>
-        <li class="nav-item px-3 py-3"><a href="#" class="nav-link active" aria-current="page">R.I.P.</a></li>
+        <li class="nav-item px-3 py-3 btn-danger"><a href="#MONC" class="nav-link active" aria-current="page">Mopar or No Car</a></li>
+        <li class="nav-item px-3 py-3"><a href="#HEMI" class="nav-link active" aria-current="page">A Legendás V8</a></li>
+        <li class="nav-item px-3 py-3"><a href="#TYPES" class="nav-link active" aria-current="page">Tipusok</a></li>
+        <span id="navCenter">
+          <li class="nav-item px-3 py-3"><a href="#MORE" class="nav-link active" aria-current="page">További tartalmak</a></li>
+          <li class="nav-item px-3 py-3"><a href="#RIP" class="nav-link active" aria-current="page">R.I.P.</a></li>
+        </span>
       </ul>
     </header>
     <main>
@@ -51,7 +32,7 @@
             </div>
                 <img src="Assets/pictures/dodge-challenger-hellcat-redeye01-1-jpg.jpg" alt="Green Challlenger" srcset="" class="Img">
         </span>
-
+        <span id="HEMI"></span>
         <span class="myCard">
             <img src="Assets/pictures/iris.avif" alt="V8 Engine" srcset="" class="Img" id="shake">
             <div id="myCardText">
@@ -66,20 +47,7 @@
             </div>
         </span>
 
-
-
-        <span id="models">
-
-            <span>
-
-            </span>
-            <hr>
-            <span>
-                
-            </span>
-
-        </span>
-        
+        <span id="TYPES"></span>
         <span id="slide">
           <!-- Bal oldali kép és szöveg -->
           <div class="kontaner" id="kontaner-left">
@@ -90,6 +58,7 @@
             </div>
             <img class="image" src="Assets/pictures/iris-challenger.avif" alt="Challenger" srcset="">
           </div>
+
         
           <!-- Jobb oldali kép és szöveg -->
           <div class="kontaner" id="kontaner-right">
@@ -101,6 +70,7 @@
             </div>
           </div>
         </span>
+        <span id="MORE"></span>
         <span id="moreContent" >
             <h1>További tartalmak</h1>
             <div id="videosGrid" >
@@ -154,13 +124,8 @@
                  </div>
             </div>
                  
-
-
         </span>
-
-
-
-
+        <span id="RIP"></span>
         <span id="rip">
           <p>Rest In Peace</p>
           
