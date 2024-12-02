@@ -87,33 +87,42 @@ hr{
 }
 
 iframe{
-    max-width: 20%;
-    max-height: 50%; 
+/*    max-width: 20%;
+    max-height: 50%; */
     padding-left: 30px;
 }
 #moreContent{
     display: grid;
 }
-#moreContent >span > p{
-    text-align: center;
-    font-size: 140%;
-}
+
 
 #moreContent > h1{
     background-color: rgb(158, 158, 158);
     border-style: none;
 
+
 }
 .littleCard{
     border-radius: 30px;
     border-style: solid;
-    height: 500px;
+    height: 250px;
+    padding: 10px;
+    max-width: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+
 }
 
 .littleCard > h1{
+    border: solid;
+    background-color: rgb(158, 158, 158);
+    font-size: 15px;
+    max-height: 50px;
+    padding-bottom: 20px;
+}*/
 
-}
-/*
 p{
     position: relative;
     top: 50%;
