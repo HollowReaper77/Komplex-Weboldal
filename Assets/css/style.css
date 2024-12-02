@@ -114,8 +114,15 @@ iframe{
     background-color: white;
     margin-bottom: 20px;
 
-
 }
+
+.littleCard:hover{
+    background-color: red;
+
+
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
 
 .littleCard > h1{
     border: solid;
