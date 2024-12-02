@@ -131,13 +131,13 @@ iframe{
 
     display: grid;
 }
-
+/*
 p{
     position: relative;
     top: 50%;
     left: 50%;
 }
-
+*/
 .v8card{
     flex-direction: row-reverse;
 }
