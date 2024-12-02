@@ -9,7 +9,14 @@ nav{
 body{
     background-color: rgb(158, 158, 158);
 }
-
+header{
+    background-color: white;
+}
+/*
+header > > :hover{
+    class="nav-link active" aria-current="page"
+}
+    */
 .myCard{
 	display: flex;
 	justify-content: space-around; /*center, space-between, space-around*/
