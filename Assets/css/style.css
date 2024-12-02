@@ -36,7 +36,7 @@ body{
     background-color: white;
     
 }
-#welcomeImg{
+.Img{
     max-width: 50vw;
     border-width: 5px;
 	border-style: solid;
@@ -149,3 +149,35 @@ iframe{
     line-height: 75px;
     font-size: 30px;
 }
+
+
+#shake {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  /* Animáció kulcskockái */
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    0% { transform: rotate(0); }
+    
+    20% { transform: translateX(-10px); }
+    25% { transform: rotate(10deg); }
+
+    40% { transform: translateX(10px); }
+    50% { transform: rotate(-10deg); }
+
+    60% { transform: translateX(-10px); }
+    75% { transform: rotate(10deg); }
+
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+
+    100% { transform: rotate(0); }
+
+  }
+
+  /* Animáció alkalmazása */
+  #shake:hover {
+    animation: shake 0.5s ease-in-out;
+  }
