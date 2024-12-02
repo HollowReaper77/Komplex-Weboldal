@@ -6,6 +6,9 @@ nav{
     position: sticky;
     top: 0;
 }
+body{
+    background-color: rgb(158, 158, 158);
+}
 
 .myCard{
 	display: flex;
@@ -21,6 +24,8 @@ nav{
     border-width: 8px;
     margin-left: 3%;
     margin-right: 3%;
+
+
 }
 #myCardText{
     min-height: 350px;
@@ -28,6 +33,7 @@ nav{
     border-style: solid;
     border-radius: 30px;
 
+    background-color: white;
     
 }
 #welcomeImg{
@@ -40,12 +46,13 @@ nav{
                 -10px -10px 20px #ffffff;
 }
 
-h1, h3{
+h1{
+    background-color: gray;
+    text-align: center;
     border-style: solid;
     border-radius: 30px;
     margin: 10px;
     padding: 5px;
-    border-color: black;
 }
 
 h3{
@@ -56,14 +63,55 @@ h3{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-.heroText{
-    background: white;
+.myCardText > h1, h3{
+    border-style: solid;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-color: black;
 }
+
 
 
 section{
     margin-bottom: 10px;
+}
+
+#engineDesc{
+    margin-top: 20px;
+    font-size: medium;
+}
+
+hr{
+    color: black;
+}
+
+iframe{
+    max-width: 20%;
+    max-height: 50%; 
+    padding-left: 30px;
+}
+#moreContent{
+    display: grid;
+}
+#moreContent >span > p{
+    text-align: center;
+    font-size: 140%;
+}
+
+#moreContent > h1{
+    background-color: rgb(158, 158, 158);
+    border-style: none;
+
+}
+.littleCard{
+    border-radius: 30px;
+    border-style: solid;
+    height: 500px;
+}
+
+.littleCard > h1{
+
 }
 /*
 p{
