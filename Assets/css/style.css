@@ -8,6 +8,7 @@ nav{
 }
 body{
     background-color: rgb(158, 158, 158);
+    overflow-x: hidden; /*miért csak itt működik az és ilyen tulajdonsággal az eltüntetés?*/
 }
 header{
     background-color: white;
@@ -227,6 +228,7 @@ iframe{
 
   .kontaner {
     position: absolute;
+    /*position: absolute;*/
     display: flex;
     align-items: center;
     transition: transform 1s ease-in-out;
@@ -236,13 +238,12 @@ iframe{
     background-color: white;
     min-width: 50vw;
     min-height: 500px;
+    max-height: 500px;
     /*overflow: hidden;*/
 
   }
   
-  .kontaner::-webkit-scrollbar {
-    display: none;  /*Eltünteti a görgetősávot (WebKit-alapú böngészők)*/overflow: hidden;
-}
+
 
 
   /* Bal konténer alapértelmezetten félig kilóg */
@@ -255,7 +256,7 @@ iframe{
   }
 
   #kontaner-left:hover {
-    transform: translateX(25%);
+    transform: translateX(50%);
     z-index: 2;
     /*overflow: hidden;*/
   }
@@ -268,14 +269,14 @@ iframe{
   }
 
   #kontaner-right:hover {
-    transform: translateX(-25%);
+    transform: translateX(-50%);
     z-index: 2;
     /*overflow: hidden;*/
   }
 
   .image {
-    max-width: 45%;
-    height: 45%;
+    max-width: 50%;
+    height: 50%;
     transition: transform 1s ease-in-out;
     margin: 30px;
   }
@@ -289,7 +290,8 @@ iframe{
         border-radius: 30px;
     border-style:solid;
     border-radius: 30px;
-    min-width: 700px;
+    min-width: 400px;
+    max-height: 500px;;
     /*max-width: 200px;
     min-width: 40%;*/
   }
