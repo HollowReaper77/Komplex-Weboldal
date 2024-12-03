@@ -242,3 +242,95 @@
   #socialmedia {
   padding-right : 50px;
   }
+
+
+  /* média query-k*/
+
+/* Media Queries for Responsiveness */
+
+/* For screens with a width up to 1440px */
+@media (max-width: 1440px) {
+  .myCard {
+    margin: 3% 4%;
+    padding: 25px;
+    flex-direction: column; /* Elements will stack vertically */
+    gap: 20px; /* Space between elements */
+  }
+}
+
+/* For screens with a width up to 1280px */
+@media (max-width: 1280px) {
+  .myCard {
+    margin: 3% 3%;
+    padding: 20px;
+    flex-direction: column; /* Elements will stack vertically */
+    gap: 20px; /* Space between elements */
+  }
+
+  #myCardText {
+    max-width: 100%; /* Ensure text takes full width */
+    margin-bottom: 20px; /* Add space below text */
+  }
+
+  .Img {
+    max-width: 100%; /* Ensure image takes full width */
+    margin-bottom: 20px; /* Add space below image */
+  }
+
+  #videosGrid {
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  }
+}
+
+/* For screens with a width up to 1024px */
+@media (max-width: 1024px) {
+  .myCard {
+    margin: 5% 2%;
+    padding: 15px;
+    flex-direction: column; /* Elements will stack vertically */
+    gap: 20px; /* Space between elements */
+  }
+
+  .Img {
+    max-width: 100%;
+    margin-bottom: 20px; /* Add space below image */
+  }
+
+  #videosGrid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  .littleCard {
+    max-width: 80%;
+    margin-bottom: 20px; /* Add space below little cards */
+  }
+
+  .kontaner {
+    min-width: 90%;
+    margin-bottom: 20px; /* Add space below container */
+  }
+}
+
+/* For screens with a width up to 768px */
+@media (max-width: 768px) {
+  .myCard {
+    margin: 10% 5%;
+    padding: 10px;
+    flex-direction: column; /* Elements will stack vertically */
+    gap: 15px; /* Space between elements */
+  }
+
+  .Img {
+    max-width: 100%;
+    margin-bottom: 15px; /* Add space below image */
+  }
+
+  .kontaner {
+    min-width: 100%;
+    margin-bottom: 15px; /* Add space below container */
+  }
+
+  #videosGrid {
+    grid-template-columns: 1fr; /* Ensure grid items are stacked */
+  }
+}
